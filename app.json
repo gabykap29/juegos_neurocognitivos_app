@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "juegos_cognitivos",
+    "name": "Juegos Cognitivos",
     "slug": "juegos_cognitivos",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
@@ -35,6 +35,12 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Permitir acceso al microfono para $(PRODUCT_NAME)."
+        }
       ]
     ],
     "experiments": {
@@ -50,8 +56,6 @@
     "updates": {
       "url": "https://u.expo.dev/71cdbe8e-fa49-4f9b-8b98-5825672f144a"
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    }
+    "runtimeVersion": "1.0.0"
   }
 }

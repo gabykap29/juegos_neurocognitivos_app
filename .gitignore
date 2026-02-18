@@ -35,5 +35,10 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
+babel.config.js
 app-example
+android/
+ios/
+package-lock.json
+.eas/
+.vscode/
